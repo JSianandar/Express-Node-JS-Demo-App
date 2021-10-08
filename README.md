@@ -4,3 +4,7 @@
  -EJS
  -Express
  -Nodemon(Global)
+ To run: 
+ 1. git bash to the dir
+ 2. npm install
+ 3. node index.js/ nodemon index.js
