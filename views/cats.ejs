@@ -1,0 +1,14 @@
+<!-- include head template from partials dir -->
+<%- include('partials/head') %> 
+<body>
+    // Loops in EJS
+    <h1>All Cats</h1>
+    <ul>
+        <% for(let cat of cats) {%>
+            <li><%= cat %> </li>
+        <% } %>  
+    </ul>
+    
+</body>
+<%- include('partials/footer') %>
+</html>
